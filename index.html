@@ -22,8 +22,59 @@
 <meta property="og:image" content="/images/free%20wallpaper.jpg" />
 <meta property="og:image:secure_url" content="/images/free%20wallpaper.jpg" />
 <meta property="og:image:width" content="1280" />
-<meta property="og:image:height" content="640" />
-    
+<meta property="og:image:height" content="640" />					      
+<link expr:href='data:blog.homepageUrl + &quot;favicon.ico&quot;' rel='icon' type='image/x-icon'/>
+<link href='https://wall.smu.my.id/images/free%20wallpaper.jpg' rel='icon' sizes='32x32'/>
+<link href='https://wall.smu.my.id/images/free%20wallpaper.jpg' rel='icon' sizes='192x192'/>
+<link href='https://wall.smu.my.id/images/free%20wallpaper.jpg' rel='apple-touch-icon-precomposed'/>
+<meta content='https://wall.smu.my.id/images/free%20wallpaper.jpg' name='msapplication-TileImage'/>
+<link expr:href='data:blog.url' rel='canonical'/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<data:blog.meTag/>
+</b:if>
+<link href='//www.blogger.com/openid-server.g' rel='openid.server'/>
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+<link expr:href='data:blog.canonicalUrl' hreflang='x-default' rel='alternate'/>
+<b:if cond='data:view.isArchive'>
+<meta content='noindex,noarchive' name='robots'/>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.pageName.escaped' property='og:title'/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription.escaped' name='description'/>
+<meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>
+<meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>
+<b:else/>
+</b:if>
+</b:if>
+<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<meta content='article' property='og:type'/>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='resizeImage(data:blog.postImageUrl,1200,&quot;1200:630&quot;)' property='og:image'/>
+<meta content='1200' property='og:image:width'/>
+<meta content='630' property='og:image:height'/>
+<meta expr:content='data:blog.pageName.escaped' property='og:image:alt'/>
+<b:else/>
+<b:if cond='data:blog.firstImageUrl'>
+<meta expr:content='resizeImage(data:blog.firstImageUrl,1200,&quot;1200:630&quot;)' property='og:image'/>
+<meta content='1200' property='og:image:width'/>
+<meta content='630' property='og:image:height'/>
+<meta expr:content='data:blog.pageName.escaped' property='og:image:alt'/>
+<b:else/>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<meta expr:content='resizeImage(data:blog.postImageThumbnailUrl,1200,&quot;1200:630&quot;)' property='og:image'/>
+<meta content='1200' property='og:image:width'/>
+<meta content='630' property='og:image:height'/>
+<meta expr:content='data:blog.pageName.escaped' property='og:image:alt'/>
+<b:else/>
+&lt;meta content=&#39;https://wall.smu.my.id/images/free%20wallpaper.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&#39; property=&#39;og:image&#39;/&gt;
+<meta expr:content='data:blog.title.escaped' property='og:image:alt'/>
+<meta content='158' property='og:image:width'/>
+<meta content='158' property='og:image:height'/>
+</b:if>
+</b:if>
+</b:if>			      				      
     <!-- Loading Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
