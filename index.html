@@ -22,24 +22,6 @@
 <link href='https://wall.smu.my.id/images/free%20wallpaper.jpg' rel='icon' sizes='192x192'/>
 <link href='https://wall.smu.my.id/images/free%20wallpaper.jpg' rel='apple-touch-icon-precomposed'/>
 </b:if>
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-<meta expr:content='data:blog.pageName.escaped' property='og:title'/>
-<b:if cond='data:blog.metaDescription'>
-<meta expr:content='data:blog.metaDescription.escaped' name='description'/>
-<meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>
-<meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>
-<b:else/>
-</b:if>
-</b:if>
-<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
-<meta content='article' property='og:type'/>
-<meta expr:content='data:blog.title' property='og:site_name'/>
-<b:if cond='data:blog.postImageUrl'>
-<meta expr:content='resizeImage(data:blog.postImageUrl,1200,&quot;1200:630&quot;)' property='og:image'/>
-<meta content='1200' property='og:image:width'/>
-<meta content='630' property='og:image:height'/>
-<meta expr:content='data:blog.pageName.escaped' property='og:image:alt'/>
-<b:else/>
 <b:if cond='data:blog.firstImageUrl'>
 <meta expr:content='resizeImage(data:blog.firstImageUrl,1200,&quot;1200:630&quot;)' property='og:image'/>
 <meta content='1200' property='og:image:width'/>
